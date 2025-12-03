@@ -13,3 +13,6 @@
 | `quantization_ML final.ipynb` | Extends the ML model by adding parameter-update visualisation. |
 | `lr.csv` | Stores, for each participant, the learning rate that yielded the highest prediction accuracy, along with the trained parameter values. |
 | `best.csv` | For each participant, records the learning rate and parameter set that achieved the highest interpretability (i.e., best explanatory power). |
+|strategy_plot.ipynb|Clustering, statistical analysis and visualization modules, including spider charts for average strategy consistency, and line charts for performance presentation.|
+|cluster_perf.ipynb|Supplementary statistical analysis for user performance.|
+|multi_strategy_model.ipynb|Multi-strategy integration model using XGBoost and Random Forest, aiming to predict user decision and evaluate contributions of strategy features with SHAP analysis.|
